@@ -4,7 +4,7 @@
     URL: sample.com
   tasks:
     - name: Print URL variable
-    - ansible.builtin.debug:
+      ansible.builtin.debug:
         msg: "{{ URL }}"
 
 # Value stats with a variable, like msg: {{ URL }} then quotes are needed, if it does not start with variable like msg:  Hello {{ URL}}, then quotes are not needed.
