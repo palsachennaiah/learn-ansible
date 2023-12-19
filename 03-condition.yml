@@ -5,5 +5,5 @@
       ansible.builtin.debug:
         msg: Hello, Linux
     - name: Print Unix
-      ansible. builtin.debug:
+      ansible.builtin.debug:
         msg: Hello, Unix
