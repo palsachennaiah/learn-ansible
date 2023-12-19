@@ -9,4 +9,4 @@
     - name: Print Unix
       ansible.builtin.debug:
         msg: Hello, Unix
-      when: os_name == unix"
+      when: os_name == "unix"
