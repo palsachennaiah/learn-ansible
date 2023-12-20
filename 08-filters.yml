@@ -7,5 +7,6 @@
 
     - name: Print No of Users Logged in
       ansible.builtin.debug:
-        msg: "{{ OUT | split(',') }}"
+        msg: "{{ OUT.stdout | split(',') }}"
+
 
