@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
     - name: Some shell command
-      ansible.builtin.shell: lss
+      ansible.builtin.shell: ls
       ignore_errors: yes
 
     - name: Print Hello
